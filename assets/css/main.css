@@ -16,15 +16,36 @@ header {
     justify-content: space-between;
     height: 100px;
     width: 990px;
-    background-color: blue;
 }
 
 .logo {
     align-items: center;
     display: flex;
-    background-color: red;
+
 }
 
-.menu-items {
+/* .menu-items {
     background-color: green;
+} */
+.menu-items, ul {
+    display: flex;
+    align-items: center;
+}
+.menu-items, ul, li {
+    list-style: none;
+}
+.menu-items ul li a {
+    display: block;
+    text-decoration: none;
+    color: #727272;
+    text-transform: uppercase;
+    padding: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.menu-items ul .active a,
+.menu-items ul li a:hover {
+    background-color: #39aae1;
+    color: white;
 }
