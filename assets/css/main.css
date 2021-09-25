@@ -122,3 +122,22 @@ header {
 .banner-day, .banner-hour {
     padding: 5px
 }
+
+#principal {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    background-color: hotpink;
+    width: 990px;
+}
+.container section {
+    flex: 2;
+    background-color: green;
+}
+.container aside {
+    flex:1;
+    background-color: red;
+}
