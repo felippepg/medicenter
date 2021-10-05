@@ -118,7 +118,6 @@ header {
     color: white;
     border-bottom: 1px solid #1A2F60;
 }
-
 .banner-day, .banner-hour {
     padding: 5px
 }
@@ -130,14 +129,96 @@ header {
 
 .container {
     display: flex;
-    background-color: hotpink;
     width: 990px;
 }
 .container section {
     flex: 2;
-    background-color: green;
 }
 .container aside {
     flex:1;
-    background-color: red;
+}
+
+.widget-title {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.widget-title-text {
+    font-weight: bold;
+    font-size: 20px;
+}
+.widget-title-text-bar {
+    margin-top: 5px;
+    height: 2px;
+    width: 50px;
+    background-color: #36ae91;
+}
+.widget-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.widget-container {
+    width: 150px;
+    height: 150px;
+    background-color: #36a9e1;
+    display: flex;
+    margin-bottom: 30px;
+}
+.widget-content-text {
+    font-size: 15px;
+    color: #4B4B4B;
+    padding: 10px;
+    padding-left: 0;
+    display: flex;
+    align-items: center;
+
+}
+.widget-bar {
+    margin-top: 5px;
+    height: 2px;
+    background-color: #D8D8D8;
+    width: 330px;
+}
+.icon {
+    height: 30px;
+    width: 30px;
+    background-color: grey;
+    margin-right: 5px;
+}
+
+/* .flex {
+    display: flex;
+    flex-wrap: wrap;
+} */
+/* article {
+    flex:1;
+} */
+article {
+    width: auto;
+}
+article .news-date {
+    display: flex;
+}
+article .news-created-at {
+    background-color: #2b4c99;
+    color: white;
+    font-size: 15px;
+    padding: 15px;
+    margin-right: 5px;
+}
+article .news-comments {
+    background-color: #36a9e1;
+    color: white;
+    padding: 15px;
+    font-size: 15px;
+}
+article .news-thumbnail {
+    margin-top: 10px;
+}
+article .news-thumbnail img {
+    width: 100%;
+    height: auto;
+}
+article .news-title {
+    font-size: 30px;
 }
