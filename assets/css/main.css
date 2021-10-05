@@ -186,18 +186,24 @@ header {
     margin-right: 5px;
 }
 
-/* .flex {
+.flex {
     display: flex;
     flex-wrap: wrap;
-} */
-/* article {
+}
+article {
     flex:1;
-} */
+    margin-right: 20px;
+} 
 article {
     width: auto;
+    min-width: 300px;
+}
+article a {
+    text-decoration: none;
 }
 article .news-date {
     display: flex;
+    margin-top: 15px;
 }
 article .news-created-at {
     background-color: #2b4c99;
@@ -220,5 +226,13 @@ article .news-thumbnail img {
     height: auto;
 }
 article .news-title {
+    margin-top: 20px;
+    margin-bottom: 20px;
     font-size: 30px;
+    color: black;
+}
+article .news-text-content  {
+    color: #5c5c5c;
+    font-size: 15px;
+    line-height: 20px;
 }
