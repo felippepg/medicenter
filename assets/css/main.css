@@ -99,21 +99,21 @@ header {
     margin-top: 5px;
     font-size: 15px;
     color: white;
-    padding-left: 25px;
+    padding-left: 15px;
 }
 .banner-body a {
     display: inline-block;
     border: 1px solid white;
     padding: 5px;
     text-decoration: none;
-    margin-left: 25px;
+    margin-left: 15px;
     margin-top: 15px;
     color: white;
 }
 .banner-table-box {
     display: flex;
     justify-content: space-between;
-    margin-left: 25px;
+    margin-left: 15px;
     margin-right: 25px;
     color: white;
     border-bottom: 1px solid #1A2F60;
@@ -203,7 +203,6 @@ article a {
 }
 article .news-date {
     display: flex;
-    margin-top: 15px;
 }
 article .news-created-at {
     background-color: #2b4c99;
@@ -235,4 +234,65 @@ article .news-text-content  {
     color: #5c5c5c;
     font-size: 15px;
     line-height: 20px;
+    margin-bottom: 15px;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+.blue {
+    background-color: #2b4c99;
+}
+
+footer {
+   display: flex;
+   justify-content: center;
+   background-color: black;
+   flex-wrap: wrap;
+}
+footer .footer-banner-head {
+    display: flex;
+    flex: 1;
+    height: 100px;
+    width: auto;
+    min-width: 990px;
+}
+footer .footer-banner1 {
+    flex: 1;
+    background-color: #39aae1;
+}
+footer .footer-banner2 {
+    flex: 1;
+    background-color: #0079c7;
+}
+footer .footer-banner3 {
+    flex: 1;
+    background-color: #2b4c99;
+}
+footer .ex {
+    background-color: orange;
+    height: 200px;
+}
+footer .widget-title-text-footer {
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+footer .footer-banner-body {
+    flex:1;
+}
+footer .widget-footer-text {
+    color: #C6C2C2;
+    font-size: 15px;
+    line-height: 20px;
+}
+footer .widget-footer-text-white {
+    color: white;
+    font-size: 15px;
+    line-height: 20px;
+}
+footer .widget-footer-text-createdAt {
+    margin-top: 10px;
+    color: #39aae1;
+    margin-bottom: 10px;
 }
