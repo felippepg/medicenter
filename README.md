@@ -2,7 +2,8 @@
 
 
 ## Descrição do Projeto
-Esse projeto foi realizado com fins didáticos no Curso de HTML e CSS da [B7 Web](https://b7web.com.br/fullstack/)
+Esse projeto foi realizado com fins didáticos no Curso de HTML e CSS da [B7 Web](https://b7web.com.br/fullstack/), sendo o mesmo um clone de um template chamado [Medicenter](https://themeforest.net/item/medicenter-responsive-medical-wordpress-theme/4718613?gclid=Cj0KCQjwnoqLBhD4ARIsAL5JedLBnq4eNs6kJKe1q5WIeA7NZhpGkiJcVoghBqynZ2_DvcSHBA4JYJwaAlhHEALw_wcB)
+Créditos e Direitos do layout: [QuanticaLabs](https://quanticalabs.com/home/)
 
 ### Pré-requisitos
 
