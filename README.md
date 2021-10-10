@@ -43,7 +43,7 @@ $ cd medicenter
     <img alt="Tablet" title="Tablet" src="./assets/images/img tablet.png" />
 </h1>
 
-<p align="center">Site projetado em um Tablet/<p>
+<p align="center">Site projetado em um Tablet</p>
 
 <h1 align="center">
     <img alt="Smartphone" title="Smartphone" src="./assets/images/img mobile.png"/>
