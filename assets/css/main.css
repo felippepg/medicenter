@@ -288,6 +288,18 @@ footer .widget-footer-text-createdAt {
     margin-bottom: 10px;
 }
 
+.mobile-area-button {
+    display: none;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+}
+
+.mobile-button {
+    height: 3px;
+    background-color: #39aae1;
+}
+
 @media (max-width: 768px ) {
     .menu-items ul li a {
         font-size: 13px;
@@ -295,5 +307,80 @@ footer .widget-footer-text-createdAt {
 
     .menu, .container {
         width: 734px;
+    }
+}
+@media (max-width: 600px ) {
+
+    .menu-items ul {
+        display: flex;
+        flex-direction: column;
+        display: none;
+    }
+
+    .menu-items, ul {
+        flex-direction: column;
+    }
+    
+    .logo img {
+        margin-left: 10px;
+    }
+
+    .mobile-area-button {
+        display: flex;
+        margin-right: 10px;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .banner-body, .footer-banner-head, .footer-banner-body {
+        flex-direction: column;
+        height: auto;
+    }
+    .banner-head h1, h2, .footer-banner-body {
+        margin-left: 15px;
+    }
+
+    .banner-body a {
+        margin-bottom: 10px;
+    }
+
+    #principal {
+        margin-top: 20px;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .container .widget {
+        display: flex;
+        flex-direction: column;
+        margin-left: 15px;
+        margin-right: 27px;
+        margin-bottom: 10px;
+    }
+
+    .container section {
+        margin-top: 30px;
+    }
+}
+@media (max-width: 375px) {
+    .container section {
+        margin-top: 70px;
+    }
+}
+
+@media (max-width: 320px) {
+    .container .widget {
+        margin-left: 40px;
+        margin-right: 19px;
+        margin-bottom: 10px;
+    }
+
+
+    footer .footer-banner-head {
+        width: 320px;
     }
 }
