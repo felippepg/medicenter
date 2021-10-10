@@ -2,7 +2,7 @@
 
 
 ## Descrição do Projeto
-Esse projeto foi realizado com fins didáticos no Curso de HTML e CSS da [B7](https://b7web.com.br/fullstack/)
+Esse projeto foi realizado com fins didáticos no Curso de HTML e CSS da [B7 Web](https://b7web.com.br/fullstack/)
 
 ### Pré-requisitos
 
@@ -22,7 +22,8 @@ $ cd medicenter
 # Abrir o arquivo index.html com algum navegador
 ```
 
-### Layout
+### :computer: Layout
+
 
 <h1 align="center">
     <img alt="Layout superior" title="Layout superior" src="./assets/images/img2.png" />
@@ -37,7 +38,7 @@ $ cd medicenter
 <p align="center">Parte inferior do Layout principal</p>
 
 
-### Responsividade
+## :iphone: Responsividade
 
 <h1 align="center">
     <img alt="Tablet" title="Tablet" src="./assets/images/img tablet.png" />
